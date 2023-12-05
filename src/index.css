@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import '/node_modules/modern-normalize/modern-normalize.css';
 
 body {
   margin: 0;
@@ -10,6 +10,7 @@ body {
 }
 
 code {
+  background-color: #808080;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
