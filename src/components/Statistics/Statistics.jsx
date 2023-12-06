@@ -12,7 +12,7 @@ import { getRandomColor } from 'helpers/randomColor';
 export const Statistics = ({ title, stats }) => {
   return (
     <Section>
-      {title && <Title>Upload stats</Title>}
+      {title && <Title>{title}</Title>}
 
       <StatisticList>
         {stats.map(({ id, label, percentage }) => (
